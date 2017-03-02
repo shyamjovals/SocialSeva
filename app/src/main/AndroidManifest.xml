@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.win10.win">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Admin"></activity>
+        <activity android:name=".admin_login"></activity>
+        <activity android:name=".donor"></activity>
+        <activity android:name=".Create"></activity>
+        <activity android:name=".mul"></activity>
+        <activity android:name=".ration"></activity>
+        <activity android:name=".Theme"></activity>
+        <activity android:name=".blood"></activity>
+        <activity android:name=".pds"></activity>
+        <activity android:name=".complaint_view"></activity>
+    </application>
+
+</manifest>
